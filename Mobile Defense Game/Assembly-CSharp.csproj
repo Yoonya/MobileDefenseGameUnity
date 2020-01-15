@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BulletBehavior.cs" />
+    <Compile Include="Assets\Scripts\BulletStat.cs" />
     <Compile Include="Assets\Scripts\CharacterBehavior.cs" />
     <Compile Include="Assets\Scripts\CharacterStat.cs" />
     <Compile Include="Assets\Scripts\CreateCharacter.cs" />
@@ -82,6 +83,9 @@
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
@@ -100,14 +104,11 @@
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -318,9 +319,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
