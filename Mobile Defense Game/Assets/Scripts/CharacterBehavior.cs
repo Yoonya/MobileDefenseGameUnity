@@ -6,7 +6,6 @@ using UnityEngine.EventSystems;
 public class CharacterBehavior : MonoBehaviour {
 
     private CharacterStat characterStat;
-    private GameManager gameManager;
 
     public GameObject bullet;
     private Animator animator;
@@ -14,7 +13,6 @@ public class CharacterBehavior : MonoBehaviour {
     
 	void Start () {
         characterStat = gameObject.GetComponent<CharacterStat>();
-        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
         animator = gameObject.GetComponent<Animator>();
         audioSource = gameObject.GetComponent<AudioSource>();
     }
@@ -35,11 +33,11 @@ public class CharacterBehavior : MonoBehaviour {
     {
         if (EventSystem.current.IsPointerOverGameObject(-1) == true) return;
         if (EventSystem.current.IsPointerOverGameObject(0) == true) return;
-        if (characterStat.canLevelUp(gameManager.seed))
+        if (characterStat.canLevelUp(GameManager.instance.seed))
         {
             characterStat.increaseLevel();
-            gameManager.seed -= characterStat.upgradeCost;
-            gameManager.updateText();
+            GameManager.instance.seed -= characterStat.upgradeCost;
+            GameManager.instance.updateText();
         }
     }
 }

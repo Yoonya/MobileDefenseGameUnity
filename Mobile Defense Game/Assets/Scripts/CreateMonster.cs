@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class CreateMonster : MonoBehaviour {
 
-    private GameManager gameManager;
-
     public List<GameObject> respawnSpotList;
 
     public GameObject monster1Prefab;
@@ -16,19 +14,18 @@ public class CreateMonster : MonoBehaviour {
     private float lastSpawnTime;
     private int spawnCount = 0;
 
-    void Start () {
-        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+    void Start () {     
         monsterPrefab = monster1Prefab;
         lastSpawnTime = Time.time;
 	}
 	
 	void Update () {
-		if(gameManager.round <= gameManager.totalRound)
+		if(GameManager.instance.round <= GameManager.instance.totalRound)
         {
             float timeGap = Time.time - lastSpawnTime;
-            if(((spawnCount == 0 && timeGap > gameManager.roundReadyTime) // 새 라운드가 시작
-                || timeGap > gameManager.spawnTime)
-                && spawnCount < gameManager.spawnNumber)
+            if(((spawnCount == 0 && timeGap > GameManager.instance.roundReadyTime) // 새 라운드가 시작
+                || timeGap > GameManager.instance.spawnTime)
+                && spawnCount < GameManager.instance.spawnNumber)
             {
                 lastSpawnTime = Time.time;
                 int index = Random.Range(0, 4);
@@ -37,24 +34,24 @@ public class CreateMonster : MonoBehaviour {
                 Instantiate(monsterPrefab, respawnSpot.transform.position, Quaternion.identity);
                 spawnCount += 1;
             }
-            if(spawnCount == gameManager.spawnNumber &&
+            if(spawnCount == GameManager.instance.spawnNumber &&
                GameObject.FindGameObjectWithTag("Monster") == null)
             {
-                if(gameManager.totalRound == gameManager.round)
+                if(GameManager.instance.totalRound == GameManager.instance.round)
                 {
-                    gameManager.gameClear();
-                    gameManager.round += 1;
+                    GameManager.instance.gameClear();
+                    GameManager.instance.round += 1;
                     return;
                 }
-                gameManager.clearRound();
+                GameManager.instance.clearRound();
                 spawnCount = 0;
                 lastSpawnTime = Time.time;
 
-                if(gameManager.round == 4)
+                if(GameManager.instance.round == 4)
                 {
                     monsterPrefab = monster2Prefab;
-                    gameManager.spawnTime = 2.0f;
-                    gameManager.spawnNumber = 10;
+                    GameManager.instance.spawnTime = 2.0f;
+                    GameManager.instance.spawnNumber = 10;
                 }
             }
         }
