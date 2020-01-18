@@ -6,10 +6,7 @@ public class CreateMonster : MonoBehaviour {
 
     private GameManager gameManager;
 
-    public GameObject respawnSpot1;
-    public GameObject respawnSpot2;
-    public GameObject respawnSpot3;
-    public GameObject respawnSpot4;
+    public List<GameObject> respawnSpotList;
 
     public GameObject monster1Prefab;
     public GameObject monster2Prefab;
@@ -34,24 +31,9 @@ public class CreateMonster : MonoBehaviour {
                 && spawnCount < gameManager.spawnNumber)
             {
                 lastSpawnTime = Time.time;
-                int respawnSpotNumber = Random.Range(1, 5);
-                GameObject respawnSpot = null;
-                if(respawnSpotNumber == 1)
-                {
-                    respawnSpot = respawnSpot1;
-                }
-                if (respawnSpotNumber == 2)
-                {
-                    respawnSpot = respawnSpot2;
-                }
-                if (respawnSpotNumber == 3)
-                {
-                    respawnSpot = respawnSpot3;
-                }
-                if (respawnSpotNumber == 4)
-                {
-                    respawnSpot = respawnSpot4;
-                }
+                int index = Random.Range(0, 4);
+                GameObject respawnSpot = respawnSpotList[index];
+                
                 Instantiate(monsterPrefab, respawnSpot.transform.position, Quaternion.identity);
                 spawnCount += 1;
             }
