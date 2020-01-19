@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\MonsterBehavior.cs" />
     <Compile Include="Assets\Scripts\MonsterStat.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooler.cs" />
     <Compile Include="Assets\Scripts\StartManager.cs" />
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>

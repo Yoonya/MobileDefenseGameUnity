@@ -32,6 +32,7 @@ public class CreateMonster : MonoBehaviour {
                 GameObject respawnSpot = respawnSpotList[index];
                 
                 Instantiate(monsterPrefab, respawnSpot.transform.position, Quaternion.identity);
+                GameManager.instance.monsterAddCount++;
                 spawnCount += 1;
             }
             if(spawnCount == GameManager.instance.spawnNumber &&

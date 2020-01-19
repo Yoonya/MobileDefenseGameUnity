@@ -5,6 +5,8 @@ using UnityEngine;
 public class BulletBehavior : MonoBehaviour {
 
     public BulletStat bulletStat { get; set; }
+    public float activeTime = 3.0f;
+    public float spawnTime;
 
     public BulletBehavior()
     {
@@ -12,19 +14,33 @@ public class BulletBehavior : MonoBehaviour {
     }
     public GameObject character;
 
+    public void Spawn()
+    {
+        gameObject.SetActive(true);
+        spawnTime = Time.time;
+    }
+
 	void Start () {
-        Destroy(gameObject, 3.0f);
+        Spawn();
 	}
 	
 	void Update () {
-        transform.Translate(Vector2.right * bulletStat.speed * Time.deltaTime);
+        if (Time.time - spawnTime >= activeTime)
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            transform.Translate(Vector2.right * bulletStat.speed * Time.deltaTime);
+        }
+       
 	}
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "Monster")
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             other.GetComponent<MonsterStat>().attacked(bulletStat.damage);
         }   
     }
