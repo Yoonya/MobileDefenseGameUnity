@@ -1,0 +1,355 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Unity.2D.Animation.Editor.dll
+-nostdlib
+-r:Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll
+-r:Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll
+-r:Library/ScriptAssemblies/Unity.2D.Common.Editor.dll
+-r:Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll
+-r:Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll
+-r:Library/ScriptAssemblies/Unity.2D.Triangle.Runtime.dll
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.common@1.0.11-preview.1/Tests/Editor/Lib/NSubstitute/NSubstitute.dll"
+-r:"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
+-r:"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+-r:"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+-r:"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+-r:"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.15f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.15f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2018_4_15
+-define:UNITY_2018_4
+-define:UNITY_2018
+-define:UNITY_INCLUDE_TESTS
+-define:UNITY_ADS
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_RUNTIME_PERMISSIONS
+-define:UNITY_ASTC_ONLY_DECOMPRESS
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_2_0
+-define:NET_LEGACY
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/Analytics.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/AssemblyInfo.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/ClipperLib/clipper.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/ICharacterDataProvider.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/LayoutOverlay/DropdownMenu.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/LayoutOverlay/LayoutOverlay.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/LayoutOverlay/LayoutOverlayUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/LayoutOverlay/Manipulators/Draggable.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/LayoutOverlay/ScrollableToolbar.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/AssociateBonesScope.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/BaseTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/BoneDrawingUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Cache/BaseObject.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Cache/Cache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Cache/CacheObject.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/CharacterModeTool/SwitchModeTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/ColorExtensions.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/CopyTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/DefaultPoseScope.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/DrawingUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/GenerateGeometryTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/GenerateWeightsTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/HorizontalToggleTools.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IconUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/Brush.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/GUIWrapper.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/ISkeletonView.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/ISpriteMeshView.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/RectSelectionTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/RectSlider.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/SkeletonController.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/SkeletonView.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/Slider2D.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/SpriteMeshController.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/SpriteMeshView.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/UnselectTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/IMGUI/WeightInspector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/MathUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/MeshPreviewTool/IMeshPreviewBehaviour.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/MeshPreviewTool/MeshPreviewBehaviour.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/MeshPreviewTool/MeshPreviewTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/MeshTool/MeshTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/MeshTool/MeshToolWrapper.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/ModuleUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/OutlineGenerator/IOutlineGenerator.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/OutlineGenerator/OutlineGenerator.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selection/BoneSelection.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selection/IBoneSelection.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selection/IndexedSelection.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selection/ISelection.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selection/ITransformSelection.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selection/SerializableSelection.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selection/SkeletonSelection.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SelectionTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selectors/CircleVertexSelector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selectors/GenericVertexSelector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selectors/ICircleSelector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selectors/IRectSelector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selectors/ISelector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selectors/RectBoneSelector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selectors/RectVertexSelector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Selectors/Unselector.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SerializableDictionary.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkeletonTool/SkeletonStyles.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkeletonTool/SkeletonTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkeletonTool/SkeletonToolView.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkeletonTool/SkeletonToolWrapper.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/BoneCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/BoneCacheExtensions.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/CharacterCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/CharacterPartCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/CharacterPartCacheExtensions.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/MeshCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/MeshPreviewCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/SkeletonCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/SkeletonCacheExtensions.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/SkinningCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/SkinningEnums.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/SkinningEvents.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/SpriteCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/SpriteCacheExtensions.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/TransformCache.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCache/TransformCacheExtensions.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningCopyUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningModule.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningModuleView.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningSerializer/ISkinningSerializer.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningSerializer/SkinningSerializerJSON.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SkinningSerializer/SkinningSerializerXML.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteBoneInfluence/SpriteBoneInfluenceListWidget.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteBoneInfluence/SpriteBoneInfluenceTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteBoneInfluence/SpriteBoneInfluenceWindow.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/BoneWeightExtensions.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/Edge.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/EditableBoneWeight.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/EditableBoneWeightUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/SmoothingUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/SpriteMeshData.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/SpriteMeshDataController.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/Vertex2D.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/SpriteMeshData/WeightEditor.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/TextContent.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Triangulation/ITriangulator.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Triangulation/TriangulationUtility.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Triangulation/Triangulator.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/BoneInspectorPanel.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/BoneToolbar.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/CopyToolbar.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/GenerateGeometryPanel.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/GenerateWeightsPanel.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/MeshToolbar.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/PastePanel.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/Toolbar.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/VisualElementExtensions.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/WeightInspectorIMGUIPanel.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/WeightPainterPanel.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UI/WeightToolbar.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Undo/DisabledUndo.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Undo/DisableUndoScope.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Undo/ICacheUndo.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Undo/IUndo.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Undo/UndoScope.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/Undo/UnityEngineUndo.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/UserSettings.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/BoneReparentTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/BoneTreeViewController.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/BoneTreeViewModel.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/BoneVisibilityTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/BoneVisibilityToolInterface.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/MeshVisibilityTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/SpriteVisibilityTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/VisibilityTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/VisibilityToolBase.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/VisibilityTool/VisibilityToolColumnHeader.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/WeightPainterTool.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/WeightPainterToolWrapper.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/WeightsGenerator/BoundedBiharmonicWeightsGenerator.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SkinningModule/WeightsGenerator/IWeightsGenerator.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SpriteOutlineRenderer/SpriteOutlineRenderer.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SpritePostProcess.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SpriteSkin/BoneGizmo.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SpriteSkin/BoneGizmoToggle.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SpriteSkin/SpriteSkinEditor.cs"
+"C:/Unity Advanced Tutorial/Mobile-Defense-Game/Mobile Defense Game/Library/PackageCache/com.unity.2d.animation@2.0.0-preview.3/Editor/SpriteSkin/TransformExtensions.cs"
